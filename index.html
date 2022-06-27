@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>quizapp</title>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="subdiv">
+            <h1 class="wque" id="question">Hi, Welcome To quiz</h1>
+            <p id="remv" class="ruleslist">This is General Knowledge quiz based on INDIA.There will be Total 4 questions and you will be given 15seconds to complete it! The final score will be shown on completion of quiz. ALL THE BEST! CLICK below button to start the quiz. </p>
+            <span><button id="entrybutton" class="next" onclick="onnext()">N E X T</button></span>     
+        </div> 
+            <div id="qlist" class="qdiv">
+                <ul>
+                    <input type="radio" name="answer" class="answer" id="option1">
+                    <label for="opt1" id="opt1">answer question</label>
+                    <br>
+                    <input type="radio" name="answer" class="answer" id="option2">
+                    <label for="opt1" id="opt2">answer question</label>
+                    <br>
+                    <input type="radio" name="answer" class="answer" id="option3">
+                    <label for="opt1" id="opt3">answer question</label>
+                    <br>
+                    <input type="radio" name="answer" class="answer" id="option4">
+                    <label for="opt1" id="opt4">answer question</label>
+                    <br>
+                    <button id="btn" class="btn" type="submit">S u b m i t</button>
+                </ul>
+            </div>
+        </div>   
+            <div id="score" class="score" >
+
+            </div>
+    <script src="index.js" >
+    </script>
+</body>
+</html>

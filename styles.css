@@ -1,0 +1,177 @@
+body{
+  background-color: black;
+}
+.maindiv{
+  height: auto;
+  background-image: url("bgimage.jpg");
+  background-repeat: no-repeat;
+}
+button{
+  font-size: larger;
+}
+.subdiv{
+  height: auto;
+  width: 24rem;
+}
+.subdiv h1{
+  color: aquamarine;
+  margin-top: 2rem;
+  font-family: 'Kanit', sans-serif;
+}
+.subdiv button{
+  padding: 0.5rem;
+  margin-left: 6rem;
+  background-color:aqua;
+  border: 0px;
+}
+.qdiv{
+  color: white;
+  visibility: hidden;
+}
+.qdivvi{
+  color: white;
+  visibility: visible;
+  line-height: 2rem;
+  position: absolute;
+  top: 26%;
+  left: 9%;
+  color: aqua;
+}
+.subdiv p{
+  color: aliceblue;
+  line-height: 1.5rem;
+  margin-right: 4rem;
+  font-family: 'Kanit', sans-serif;
+}
+.subdiv label{
+  font-size: large;
+  color: aquamarine;
+  line-height: 2rem;
+}
+ul button{
+  padding: 0.5rem;
+  margin-left: 6rem;
+  background-color:aqua;
+  border: 0px;
+  border-radius: 2rem;
+  font-family: 'League Gothic', sans-serif;
+
+}
+.subdiv{
+  padding-top: 2rem;
+  padding-left: 10rem;
+}
+.ruleslist{
+  visibility: visible;
+}
+.ruleslistvis{
+  visibility: hidden;
+}
+.wque{
+  visibility: visible;
+}
+.next{
+  width: 4rem;
+  font-family: 'League Gothic', sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  margin-left: 6rem;
+}
+ul{
+  margin-top: -2rem;
+  margin-left: 1rem;
+  font-family: 'PT Serif', serif;
+}
+.score{
+  color: aliceblue;
+  position: absolute;
+  left: 20%;
+  bottom: 0%;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  font-family: 'Lora', serif;
+}
+.score button{
+  padding: 0.5rem;
+  margin-left: 9rem;
+  background-color:aqua;
+  border: 0px;
+  border-radius: 2rem;
+  font-family: 'League Gothic', sans-serif;
+}
+@media only screen and (max-width:600px)
+{
+  ul{
+    margin-left: 3rem;
+    margin-top: -2rem;
+    font-family: 'PT Serif', serif;
+  }
+  .score{
+    color: aliceblue;
+    position: absolute;
+    top: 22rem;
+    left: -5%;
+    /* bottom: 0%; */
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+    font-family: 'Lora', serif;
+  }
+  .score button{
+    padding: 0.5rem;
+    margin-left: 9rem;
+    background-color:aqua;
+    border: 0px;
+    border-radius: 2rem;
+    font-family: 'League Gothic', sans-serif;
+  }
+}
+@media only screen and (min-width: 992px)
+{
+  ul{
+    margin-top: -2rem;
+    margin-left: 1rem;
+    font-family: 'PT Serif', serif;
+  }
+  .score{
+    color: aliceblue;
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+    font-family: 'Lora', serif;
+  }
+  .score button{
+    padding: 0.5rem;
+    margin-left: 22rem;
+    background-color:aqua;
+    border: 0px;
+    border-radius: 2rem;
+    font-family: 'League Gothic', sans-serif;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  ul{
+    margin-left: 4rem;
+    margin-top: -2rem;
+    font-family: 'PT Serif', serif;
+  }
+  .score{
+    color: aliceblue;
+    position: absolute;
+    top: 22rem;
+    left: -5%;
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+    font-family: 'Lora', serif;
+  }
+  .score button{
+    padding: 0.5rem;
+    margin-left: 9rem;
+    background-color:aqua;
+    border: 0px;
+    border-radius: 2rem;
+    font-family: 'League Gothic', sans-serif;
+  }
+}
